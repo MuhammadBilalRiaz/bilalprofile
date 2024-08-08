@@ -1,9 +1,10 @@
 /* src/styles/colors.css */
 :root {
-    --very-light-grey: #f8f9ba;
-    --light-grey: #e9ecef;
-    --grey: #ced4da;
-    --dark-grey: #6c757d;
-    --very-dark-grey: #212529;
-    --text-light: #ffffff;
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --accent-color: #e74c3c; /* Red */
+    --light-background: #ecf0f1; /* Light Grey */
+    --dark-background: #2c3e50; /* Dark Grey */
+    --light-text: #ffffff; /* White */
+    --dark-text: #34495e; /* Dark Blue Grey */
 }
