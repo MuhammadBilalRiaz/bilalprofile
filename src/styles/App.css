@@ -5,19 +5,19 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--very-light-grey);
-  color: var(--very-dark-grey);
+  background-color: var(--light-background);
+  color: var(--dark-text);
 }
 
 header {
-  background-color: var(--very-dark-grey);
-  color: var(--text-light);
+  background-color: var(--dark-background);
+  color: var(--light-text);
   padding: 2em 0;
   text-align: center;
 }
 
 header img {
-  border: 5px solid var(--light-grey);
+  border: 5px solid var(--light-background);
 }
 
 header h1 {
@@ -34,17 +34,17 @@ section {
   padding: 4em 2em;
   max-width: 800px;
   margin: 2em auto;
-  background: var(--light-grey);
+  background: var(--light-background);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  color: var(--very-dark-grey);
+  color: var(--dark-text);
 }
 
 h2 {
   font-size: 2em;
-  color: var(--dark-grey);
+  color: var(--primary-color);
   margin-bottom: 0.5em;
-  border-bottom: 2px solid var(--grey);
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 0.5em;
 }
 
@@ -54,7 +54,7 @@ h2 {
 }
 
 .project-item {
-  background-color: var(--grey);
+  background-color: var(--secondary-color);
   margin: 1em 0;
   padding: 1em;
   border-radius: 8px;
@@ -62,19 +62,19 @@ h2 {
 }
 
 .project-item h3 {
-  color: var(--dark-grey);
+  color: var(--light-text);
   margin-top: 0;
 }
 
 footer {
-  background-color: var(--very-dark-grey);
-  color: var(--text-light);
+  background-color: var(--dark-background);
+  color: var(--light-text);
   text-align: center;
   padding: 1em 0;
 }
 
 a {
-  color: var(--dark-grey);
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -83,8 +83,8 @@ a:hover {
 }
 
 button {
-  background-color: var(--dark-grey);
-  color: var(--text-light);
+  background-color: var(--primary-color);
+  color: var(--light-text);
   border: none;
   padding: 0.5em 1em;
   border-radius: 5px;
@@ -92,5 +92,5 @@ button {
 }
 
 button:hover {
-  background-color: lighten(var(--dark-grey), 10%);
+  background-color: var(--secondary-color);
 }
